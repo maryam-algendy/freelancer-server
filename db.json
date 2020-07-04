@@ -1,5 +1,5 @@
 {
-    "mainCarousel": [{
+    "carousel": [{
             "id": 1,
             "image": "/bg1.jpg",
             "details": "This Mobile Design Cost ",
@@ -28,48 +28,48 @@
     "asUsedBy": [{
             "id": 1,
             "title": "Microsoft",
-            "image": "/microsoft.svg"
+            "image": "/ms.png"
         },
         {
             "id": 2,
             "title": "Sap",
-            "image": "/sap.svg"
+            "image": "/SAP.png"
         },
         {
             "id": 3,
             "title": "MetLife",
-            "image": "/metlife.svg"
+            "image": "/metlife-1.png"
         },
         {
             "id": 4,
             "title": "Intel",
-            "image": "/intel.svg"
+            "image": "/intel.png"
         },
         {
             "id": 5,
             "title": "Boeing",
-            "image": "/boeing.svg"
+            "image": "/be.png"
         },
         {
             "id": 6,
             "title": "Avery",
-            "image": "/avery.svg"
+            "image": "/avery.png"
         },
         {
             "id": 7,
             "title": "Pwc",
-            "image": "/pwc.svg"
+            "image": "/pwc.png"
         },
         {
             "id": 8,
             "title": "Ge",
-            "image": "/ge.svg"
+            "image": "/ge.png"
         }
     ],
 
-    "needWorkDone": [{
+    "workDone": [{
             "id": 1,
-            "image": "/job.svg",
+            "image": "/work.jpg",
             "title": "Post a job",
             "desc": "Pay safely",
             "paragraph": "It's easy. Simply post a job you need completed and receive competitive bids from freelancers within minutes."
@@ -77,7 +77,7 @@
         },
         {
             "id": 2,
-            "image": "/freelancer.svg",
+            "image": "/work2.jpg",
             "title": "Choose freelancers",
             "desc": "Pay safely",
             "paragraph": "Whatever your needs, there will be a freelancer to get it done: from web design, mobile app development, virtual assistants, product manufacturing, and graphic design (and a whole lot more)."
@@ -85,7 +85,7 @@
         },
         {
             "id": 3,
-            "image": "/safely.svg",
+            "image": "/work3.jpg",
             "title": "Pay safely",
             "desc": "Pay safely",
             "paragraph": "With secure payments and thousands of reviewed professionals to choose from, Freelancer.com is the simplest and safest way to get work done online."
@@ -93,39 +93,39 @@
         }
     ],
 
-    "greatAboutIt": [{
+    "features": [{
             "id": 1,
-            "link": "/browse.png",
+            "link": "/f1.png",
             "title": "Browse portfolios",
             "desc": "Find professionals you can trust by browsing their samples of previous work and reading their profile reviews."
         },
         {
             "id": 2,
-            "link": "/view.png",
+            "link": "/f2.png",
             "title": "View bids",
             "desc": "Receive free bids from our talented freelancers within seconds."
         },
         {
             "id": 3,
-            "link": "/live.png",
+            "link": "/f3.png",
             "title": "Live chat",
             "desc": "You can live chat with your freelancers to get constant updates on the progress of your work."
         },
         {
             "id": 4,
-            "link": "/pay.png",
+            "link": "/f4.png",
             "title": "Pay for quality",
             "desc": "Pay for work when it has been completed and you're 100% satisfied."
         },
         {
             "id": 5,
-            "link": "/track.png",
+            "link": "/f5.png",
             "title": "Track progress",
             "desc": "Keep up-to-date and on-the-go with our time tracker, and mobile app."
         },
         {
             "id": 6,
-            "link": "/support.png",
+            "link": "/f5.png",
             "title": "24/7 support",
             "desc": "We're always here to help. Our support consists of real people who are available 24/7."
         }
@@ -133,37 +133,37 @@
 
     "favorite": [{
             "id": 1,
-            "link": "/website.png",
+            "link": "/work2.jpg",
             "title": "Website Development",
             "desc": "From $300 USD"
         },
         {
             "id": 2,
-            "link": "/graphic.png",
+            "link": "/work2.jpg",
             "title": "Graphic Design",
             "desc": "From $100 USD"
         },
         {
             "id": 3,
-            "link": "/design.png",
+            "link": "/work2.jpg",
             "title": "Logo Design",
             "desc": "From $50 USD"
         },
         {
             "id": 4,
-            "link": "/marketing.png",
+            "link": "/work2.jpg",
             "title": "Marketing",
             "desc": "From $150 USD"
         },
         {
             "id": 5,
-            "link": "/writing.png",
+            "link": "/work2.jpg",
             "title": "Writing",
             "desc": "From $50 USD"
         },
         {
             "id": 6,
-            "link": "/mobile.png",
+            "link": "/work2.jpg",
             "title": "Mobile App",
             "desc": "From $50 USD / hour"
         }
@@ -171,402 +171,315 @@
 
     "categories": [{
             "id": 1,
-            "image": "/hire-php.svg",
-            "title": "PHP",
-            "desc": "PHP"
+            "class": "col-lg-1 col-md-3 col-4",
+            "link": "tv.svg",
+            "title": "PHP"
         },
         {
             "id": 2,
-            "image": "/hire-website-design.svg",
-            "title": "Website",
-            "desc": "Website"
+            "class": "col-lg-1 col-md-3 col-4",
+            "link": "tv.svg",
+            "title": "Website Design"
         },
         {
             "id": 3,
-            "image": "/hire-graphic-design.svg",
-            "title": "Graphic",
-            "desc": "Graphic"
+            "class": "col-lg-1 col-md-3 col-4",
+            "link": "tv.svg",
+            "title": "Graphic Design"
         },
         {
             "id": 4,
-            "image": "/hire-mobile-apps.svg",
-            "title": "Mobile Apps",
-            "desc": "Mobile"
+            "class": "col-lg-1 col-md-3 col-4",
+            "link": "tv.svg",
+            "title": "Mobile Apps"
         },
         {
             "id": 5,
-            "image": "/hire-android.svg",
-            "title": "Android Apps",
-            "desc": "Android"
+            "class": "col-lg-1 col-md-3 col-4",
+            "link": "tv.svg",
+            "title": "Iphone Apps"
         },
         {
             "id": 6,
-            "image": "/hire-iphone-apps.svg",
-            "title": "iPhone Apps",
-            "desc": "iPhone"
+            "class": "col-lg-1 col-md-3 col-4",
+            "link": "tv.svg",
+            "title": "Phptoshop"
         },
         {
             "id": 7,
-            "image": "/hire-photoshop.svg",
-            "title": "Photoshop",
-            "desc": "Photoshop"
+            "class": "col-lg-1 col-md-3 col-4",
+            "link": "tv.svg",
+            "title": "Logo Design"
         },
         {
             "id": 8,
-            "image": "/hire-logo-design.svg",
-            "title": "Logo Design",
-            "desc": "Logo"
+            "class": "col-lg-1 col-md-3 col-4",
+            "link": "tv.svg",
+            "title": "Article Design"
         },
         {
             "id": 9,
-            "image": "/hire-article-writing.svg",
-            "title": "Article Writing",
-            "desc": "Article"
+            "class": "d-none d-md-inline-block col-lg-1 col-md-3",
+            "link": "tv.svg",
+            "title": "Data Entry"
         },
         {
             "id": 10,
-            "image": "/hire-data-entry.svg",
-            "title": "Data Entry",
-            "desc": "Data Entry"
+            "class": "d-none d-md-inline-block col-lg-1 col-md-3",
+            "link": "tv.svg",
+            "title": "Internet Marketing"
         },
         {
             "id": 11,
-            "image": "/hire-internet-marketing.svg",
-            "title": "Internet Marketing",
-            "desc": "Internet"
+            "class": "d-none d-md-inline-block col-lg-1 col-md-3",
+            "link": "tv.svg",
+            "title": "SEO"
         },
         {
             "id": 12,
-            "image": "/hire-seo.svg",
-            "title": "SEO",
-            "desc": "SEO"
+            "class": "d-none d-lg-inline-block col-lg-1",
+            "link": "tv.svg",
+            "title": "3D Modelling"
         },
         {
             "id": 13,
-            "image": "/hire-3d-modeling.svg",
-            "title": "3D Modelling",
-            "desc": "3D Modelling"
+            "class": "d-none d-lg-inline-block col-lg-1",
+            "link": "tv.svg",
+            "title": "Copywriting"
         },
         {
             "id": 14,
-            "image": "/hire-copy-writing.svg",
-            "title": "Copywriting",
-            "desc": "Copywriting"
+            "class": "d-none d-lg-inline-block col-lg-1",
+            "link": "tv.svg",
+            "title": "Ghostwriting"
         },
         {
             "id": 15,
-            "image": "/hire-ghost-writing.svg",
-            "title": "Ghostwriting",
-            "desc": "Ghostwriting"
+            "class": "d-none d-lg-inline-block col-lg-1",
+            "link": "tv.svg",
+            "title": "Linux"
         },
         {
             "id": 16,
-            "image": "/hire-linux.svg",
-            "title": "Linux",
-            "desc": "Linux"
-        },
+            "class": "d-none d-lg-inline-block col-lg-1",
+            "link": "tv.svg",
+            "title": "Amazon Web Services"
+        },    
         {
             "id": 17,
-            "image": "/hire-aws.svg",
-            "title": "Amazon Web Services",
-            "desc": "Amazon"
-        },
+            "class": "d-none d-lg-inline-block col-lg-1",
+            "link": "tv.svg",
+            "title": "Banner Design"
+        },    
         {
             "id": 18,
-            "image": "/hire-banner-design.svg",
-            "title": "Banner Design",
-            "desc": "Banner"
+            "class": "d-none d-lg-inline-block col-lg-1",
+            "link": "tv.svg",
+            "title": "Software Development"
         },
         {
             "id": 19,
-            "image": "/hire-software-dev.svg",
-            "title": "Software Development",
-            "desc": "Software"
-        },
+            "class": "d-none d-lg-inline-block col-lg-1",
+            "link": "tv.svg",
+            "title": "Accounting"
+        },    
         {
             "id": 20,
-            "image": "/hire-accounting.svg",
-            "title": "Accounting",
-            "desc": "Accounting"
-        },
+            "class": "d-none d-lg-inline-block col-lg-1",
+            "link": "tv.svg",
+            "title": "Finance"
+        },    
         {
             "id": 21,
-            "image": "/hire-finance.svg",
-            "title": "Finance",
-            "desc": "Finance"
+            "class": "d-none d-lg-inline-block col-lg-1",
+            "link": "tv.svg",
+            "title": "Legal"
         },
         {
             "id": 22,
-            "image": "/hire-legal.svg",
-            "title": "Legal",
-            "desc": "Legal"
-        },
+            "class": "d-none d-lg-inline-block col-lg-1",
+            "link": "tv.svg",
+            "title": "Manufacturing"
+        },    
         {
             "id": 23,
-            "image": "/hire-manufacturing.svg",
-            "title": "Manufacturing",
-            "desc": "Manufacturing"
+            "class": "d-none d-lg-inline-block col-lg-1",
+            "link": "tv.svg",
+            "title": "Logistics"
         },
         {
             "id": 24,
-            "image": "/hire-logistics.svg",
-            "title": "Logistics",
-            "desc": "Logistics"
+            "class": "d-lg-none col-md-3 col-4",
+            "link": "ellipsis.svg",
+            "title": "More"
         }
     ],
 
-    "apiCard": [{
+    "cards": [{
             "id": 1,
-            "image": "/professionals.png",
+            "link": "fc.jpg",
             "title": "FREELANCER API",
-            "desc": "43 million professionals on demand",
-            "details": "Why hire people when you can simply integrate our talented cloud workforce instead?",
-            "button": "View Documentation"
+            "header": "43 million professionals on demand",
+            "desc": "Why hire people when you can simply integrate our talented cloud workforce instead?",
+            "btn": "view documentation",
+            "txt": "text-xl-right",
+            "imgClass": ""
         },
         {
             "id": 2,
-            "image": "/company.png",
+            "link": "fc.jpg",
             "title": "FREELANCER ENTERPRISE",
-            "desc": "Company budget? Get more done for less",
-            "details": "Use our workforce of 43 million to help your business achieve more.",
-            "button": "Contact Us"
+            "header": "Company budget? Get more done for less",
+            "desc": "Use our workforce of 43 million to help your business achieve more.",
+            "btn": "contact us",
+            "txt": "",
+            "imgClass": "order-xl-2"
         }
     ],
 
     "jobCategories": [{
             "id": 1,
-            "icon": "fas fa-caret-right",
-            "title": "PHP"
+            "class":"col-lg-1 col-md-3 col-4",
+            "link":"tv.svg",
+            "title":"PHP"
         },
         {
             "id": 2,
-            "icon": "fas fa-caret-right",
-            "title": "Graphic Design"
+            "class":"col-lg-1 col-md-3 col-4",
+            "link":"tv.svg",
+            "title":"Website Design"
         },
         {
             "id": 3,
-            "icon": "fas fa-caret-right",
-            "title": "Website Design"
+            "class":"col-lg-1 col-md-3 col-4",
+            "link":"tv.svg",
+            "title":"Graphic Design"
         },
         {
             "id": 4,
-            "icon": "fas fa-caret-right",
-            "title": "HTML"
+            "class":"col-lg-1 col-md-3 col-4",
+            "link":"tv.svg",
+            "title":"Mobile Apps"
         },
         {
             "id": 5,
-            "icon": "fas fa-caret-right",
-            "title": "Logo Design"
+            "class":"col-lg-1 col-md-3 col-4",
+            "link":"tv.svg",
+            "title":"Iphone Apps"
         },
         {
             "id": 6,
-            "icon": "fas fa-caret-right",
-            "title": "PhotoShop"
+            "class":"col-lg-1 col-md-3 col-4",
+            "link":"tv.svg",
+            "title":"Phptoshop"
         },
         {
             "id": 7,
-            "icon": "fas fa-caret-right",
-            "title": "WordPress"
+            "class":"col-lg-1 col-md-3 col-4",
+            "link":"tv.svg",
+            "title":"Logo Design"
         },
         {
             "id": 8,
-            "icon": "fas fa-caret-right",
-            "title": "Article Writing"
+            "class":"col-lg-1 col-md-3 col-4",
+            "link":"tv.svg",
+            "title":"Article Design"
         },
         {
             "id": 9,
-            "icon": "fas fa-caret-right",
-            "title": "Javascript"
+            "class":"d-none d-md-inline-block col-lg-1 col-md-3",
+            "link":"tv.svg",
+            "title":"Data Entry"
         },
         {
             "id": 10,
-            "icon": "fas fa-caret-right",
-            "title": "Mobile App Development"
+            "class":"d-none d-md-inline-block col-lg-1 col-md-3",
+            "link":"tv.svg",
+            "title":"Internet Marketing"
         },
         {
             "id": 11,
-            "icon": "fas fa-caret-right",
-            "title": "Software Architecture"
+            "class":"d-none d-md-inline-block col-lg-1 col-md-3",
+            "link":"tv.svg",
+            "title":"SEO"
         },
         {
             "id": 12,
-            "icon": "fas fa-caret-right",
-            "title": "Data Entry"
+            "class":"d-none d-lg-inline-block col-lg-1",
+            "link":"tv.svg",
+            "title":"3D Modelling"
         },
         {
             "id": 13,
-            "icon": "fas fa-caret-right",
-            "title": "Android"
+            "class":"d-none d-lg-inline-block col-lg-1",
+            "link":"tv.svg",
+            "title":"Copywriting"
         },
         {
             "id": 14,
-            "icon": "fas fa-caret-right",
-            "title": "Excel"
+            "class":"d-none d-lg-inline-block col-lg-1",
+            "link":"tv.svg",
+            "title":"Ghostwriting"
         },
         {
             "id": 15,
-            "icon": "fas fa-caret-right",
-            "title": "Css"
+            "class":"d-none d-lg-inline-block col-lg-1",
+            "link":"tv.svg",
+            "title":"Linux"
         },
         {
             "id": 16,
-            "icon": "fas fa-caret-right",
-            "title": "HTML5"
-        },
+            "class":"d-none d-lg-inline-block col-lg-1",
+            "link":"tv.svg",
+            "title":"Amazon Web Services"
+        },    
         {
             "id": 17,
-            "icon": "fas fa-caret-right",
-            "title": "Internet Marketing"
-        },
+            "class":"d-none d-lg-inline-block col-lg-1",
+            "link":"tv.svg",
+            "title":"Banner Design"
+        },    
         {
             "id": 18,
-            "icon": "fas fa-caret-right",
-            "title": "Copywriting"
+            "class":"d-none d-lg-inline-block col-lg-1",
+            "link":"tv.svg",
+            "title":"Software Development"
         },
         {
             "id": 19,
-            "icon": "fas fa-caret-right",
-            "title": "SEO"
-        },
+            "class":"d-none d-lg-inline-block col-lg-1",
+            "link":"tv.svg",
+            "title":"Accounting"
+        },    
         {
             "id": 20,
-            "icon": "fas fa-caret-right",
-            "title": "iPhone"
-        },
+            "class":"d-none d-lg-inline-block col-lg-1",
+            "link":"tv.svg",
+            "title":"Finance"
+        },    
         {
             "id": 21,
-            "icon": "fas fa-caret-right",
-            "title": "Research Writing"
+            "class":"d-none d-lg-inline-block col-lg-1",
+            "link":"tv.svg",
+            "title":"Legal"
         },
         {
             "id": 22,
-            "icon": "fas fa-caret-right",
-            "title": "Translation"
-        },
+            "class":"d-none d-lg-inline-block col-lg-1",
+            "link":"tv.svg",
+            "title":"Manufacturing"
+        },    
         {
             "id": 23,
-            "icon": "fas fa-caret-right",
-            "title": "Java"
+            "class":"d-none d-lg-inline-block col-lg-1",
+            "link":"tv.svg",
+            "title":"Logistics"
         },
         {
             "id": 24,
-            "icon": "fas fa-caret-right",
-            "title": "MySQL"
-        },
-        {
-            "id": 25,
-            "icon": "fas fa-caret-right",
-            "title": "Ghostwriting"
-        },
-        {
-            "id": 26,
-            "icon": "fas fa-caret-right",
-            "title": "Marketing"
-        },
-        {
-            "id": 27,
-            "icon": "fas fa-caret-right",
-            "title": "Date Processing"
-        },
-        {
-            "id": 28,
-            "icon": "fas fa-caret-right",
-            "title": "Technical Writing"
-        },
-        {
-            "id": 29,
-            "icon": "fas fa-caret-right",
-            "title": "Python"
-        },
-        {
-            "id": 30,
-            "icon": "fas fa-caret-right",
-            "title": "Social Media Marketing"
-        },
-        {
-            "id": 31,
-            "icon": "fas fa-caret-right",
-            "title": "Research"
-        },
-        {
-            "id": 32,
-            "icon": "fas fa-caret-right",
-            "title": "Link Building"
-        },
-        {
-            "id": 33,
-            "icon": "fas fa-caret-right",
-            "title": "C# Programming"
-        },
-        {
-            "id": 34,
-            "icon": "fas fa-caret-right",
-            "title": "3D Modelling"
-        },
-        {
-            "id": 35,
-            "icon": "fas fa-caret-right",
-            "title": "Web Search"
-        },
-        {
-            "id": 36,
-            "icon": "fas fa-caret-right",
-            "title": "Web Scraping"
-        },
-        {
-            "id": 37,
-            "icon": "fas fa-caret-right",
-            "title": "3D Rendering"
-        },
-        {
-            "id": 38,
-            "icon": "fas fa-caret-right",
-            "title": "Linux"
-        },
-        {
-            "id": 39,
-            "icon": "fas fa-caret-right",
-            "title": "Video Services"
-        },
-        {
-            "id": 40,
-            "icon": "fas fa-caret-right",
-            "title": "C++ Programming"
-        },
-        {
-            "id": 41,
-            "icon": "fas fa-caret-right",
-            "title": "eCommerce"
-        },
-        {
-            "id": 42,
-            "icon": "fas fa-caret-right",
-            "title": "Banner Design"
-        },
-        {
-            "id": 43,
-            "icon": "fas fa-caret-right",
-            "title": "Illustration"
-        },
-        {
-            "id": 44,
-            "icon": "fas fa-caret-right",
-            "title": "Proofreading"
-        },
-        {
-            "id": 45,
-            "icon": "fas fa-caret-right",
-            "title": "3D Animation"
-        },
-        {
-            "id": 46,
-            "icon": "fas fa-caret-right",
-            "title": "Content Writing"
-        },
-        {
-            "id": 47,
-            "icon": "fas fa-caret-right",
-            "title": "See All"
+            "class":"d-lg-none col-md-3 col-4",
+            "link":"ellipsis.svg",
+            "title":"More"
         }
     ]
 
