@@ -1,0 +1,573 @@
+{
+    "mainCarousel": [{
+            "id": 1,
+            "image": "/bg1.jpg",
+            "details": "This Mobile Design Cost ",
+            "label": "$150"
+        },
+        {
+            "id": 2,
+            "image": "/bg2.jpg",
+            "details": "This Architectural Design Cost ",
+            "label": "$200"
+        },
+        {
+            "id": 3,
+            "image": "/bg3.jpg",
+            "details": "This Nasa Design Cost ",
+            "label": "$250"
+        },
+        {
+            "id": 4,
+            "image": "/bg4.jpg",
+            "details": "This Website Design Cost ",
+            "label": "$300"
+        }
+    ],
+
+    "asUsedBy": [{
+            "id": 1,
+            "title": "Microsoft",
+            "image": "/microsoft.svg"
+        },
+        {
+            "id": 2,
+            "title": "Sap",
+            "image": "/sap.svg"
+        },
+        {
+            "id": 3,
+            "title": "MetLife",
+            "image": "/metlife.svg"
+        },
+        {
+            "id": 4,
+            "title": "Intel",
+            "image": "/intel.svg"
+        },
+        {
+            "id": 5,
+            "title": "Boeing",
+            "image": "/boeing.svg"
+        },
+        {
+            "id": 6,
+            "title": "Avery",
+            "image": "/avery.svg"
+        },
+        {
+            "id": 7,
+            "title": "Pwc",
+            "image": "/pwc.svg"
+        },
+        {
+            "id": 8,
+            "title": "Ge",
+            "image": "/ge.svg"
+        }
+    ],
+
+    "needWorkDone": [{
+            "id": 1,
+            "image": "/job.svg",
+            "title": "Post a job",
+            "desc": "Pay safely",
+            "paragraph": "It's easy. Simply post a job you need completed and receive competitive bids from freelancers within minutes."
+
+        },
+        {
+            "id": 2,
+            "image": "/freelancer.svg",
+            "title": "Choose freelancers",
+            "desc": "Pay safely",
+            "paragraph": "Whatever your needs, there will be a freelancer to get it done: from web design, mobile app development, virtual assistants, product manufacturing, and graphic design (and a whole lot more)."
+
+        },
+        {
+            "id": 3,
+            "image": "/safely.svg",
+            "title": "Pay safely",
+            "desc": "Pay safely",
+            "paragraph": "With secure payments and thousands of reviewed professionals to choose from, Freelancer.com is the simplest and safest way to get work done online."
+
+        }
+    ],
+
+    "greatAboutIt": [{
+            "id": 1,
+            "link": "/browse.png",
+            "title": "Browse portfolios",
+            "desc": "Find professionals you can trust by browsing their samples of previous work and reading their profile reviews."
+        },
+        {
+            "id": 2,
+            "link": "/view.png",
+            "title": "View bids",
+            "desc": "Receive free bids from our talented freelancers within seconds."
+        },
+        {
+            "id": 3,
+            "link": "/live.png",
+            "title": "Live chat",
+            "desc": "You can live chat with your freelancers to get constant updates on the progress of your work."
+        },
+        {
+            "id": 4,
+            "link": "/pay.png",
+            "title": "Pay for quality",
+            "desc": "Pay for work when it has been completed and you're 100% satisfied."
+        },
+        {
+            "id": 5,
+            "link": "/track.png",
+            "title": "Track progress",
+            "desc": "Keep up-to-date and on-the-go with our time tracker, and mobile app."
+        },
+        {
+            "id": 6,
+            "link": "/support.png",
+            "title": "24/7 support",
+            "desc": "We're always here to help. Our support consists of real people who are available 24/7."
+        }
+    ],
+
+    "favorite": [{
+            "id": 1,
+            "link": "/website.png",
+            "title": "Website Development",
+            "desc": "From $300 USD"
+        },
+        {
+            "id": 2,
+            "link": "/graphic.png",
+            "title": "Graphic Design",
+            "desc": "From $100 USD"
+        },
+        {
+            "id": 3,
+            "link": "/design.png",
+            "title": "Logo Design",
+            "desc": "From $50 USD"
+        },
+        {
+            "id": 4,
+            "link": "/marketing.png",
+            "title": "Marketing",
+            "desc": "From $150 USD"
+        },
+        {
+            "id": 5,
+            "link": "/writing.png",
+            "title": "Writing",
+            "desc": "From $50 USD"
+        },
+        {
+            "id": 6,
+            "link": "/mobile.png",
+            "title": "Mobile App",
+            "desc": "From $50 USD / hour"
+        }
+    ],
+
+    "categories": [{
+            "id": 1,
+            "image": "/hire-php.svg",
+            "title": "PHP",
+            "desc": "PHP"
+        },
+        {
+            "id": 2,
+            "image": "/hire-website-design.svg",
+            "title": "Website",
+            "desc": "Website"
+        },
+        {
+            "id": 3,
+            "image": "/hire-graphic-design.svg",
+            "title": "Graphic",
+            "desc": "Graphic"
+        },
+        {
+            "id": 4,
+            "image": "/hire-mobile-apps.svg",
+            "title": "Mobile Apps",
+            "desc": "Mobile"
+        },
+        {
+            "id": 5,
+            "image": "/hire-android.svg",
+            "title": "Android Apps",
+            "desc": "Android"
+        },
+        {
+            "id": 6,
+            "image": "/hire-iphone-apps.svg",
+            "title": "iPhone Apps",
+            "desc": "iPhone"
+        },
+        {
+            "id": 7,
+            "image": "/hire-photoshop.svg",
+            "title": "Photoshop",
+            "desc": "Photoshop"
+        },
+        {
+            "id": 8,
+            "image": "/hire-logo-design.svg",
+            "title": "Logo Design",
+            "desc": "Logo"
+        },
+        {
+            "id": 9,
+            "image": "/hire-article-writing.svg",
+            "title": "Article Writing",
+            "desc": "Article"
+        },
+        {
+            "id": 10,
+            "image": "/hire-data-entry.svg",
+            "title": "Data Entry",
+            "desc": "Data Entry"
+        },
+        {
+            "id": 11,
+            "image": "/hire-internet-marketing.svg",
+            "title": "Internet Marketing",
+            "desc": "Internet"
+        },
+        {
+            "id": 12,
+            "image": "/hire-seo.svg",
+            "title": "SEO",
+            "desc": "SEO"
+        },
+        {
+            "id": 13,
+            "image": "/hire-3d-modeling.svg",
+            "title": "3D Modelling",
+            "desc": "3D Modelling"
+        },
+        {
+            "id": 14,
+            "image": "/hire-copy-writing.svg",
+            "title": "Copywriting",
+            "desc": "Copywriting"
+        },
+        {
+            "id": 15,
+            "image": "/hire-ghost-writing.svg",
+            "title": "Ghostwriting",
+            "desc": "Ghostwriting"
+        },
+        {
+            "id": 16,
+            "image": "/hire-linux.svg",
+            "title": "Linux",
+            "desc": "Linux"
+        },
+        {
+            "id": 17,
+            "image": "/hire-aws.svg",
+            "title": "Amazon Web Services",
+            "desc": "Amazon"
+        },
+        {
+            "id": 18,
+            "image": "/hire-banner-design.svg",
+            "title": "Banner Design",
+            "desc": "Banner"
+        },
+        {
+            "id": 19,
+            "image": "/hire-software-dev.svg",
+            "title": "Software Development",
+            "desc": "Software"
+        },
+        {
+            "id": 20,
+            "image": "/hire-accounting.svg",
+            "title": "Accounting",
+            "desc": "Accounting"
+        },
+        {
+            "id": 21,
+            "image": "/hire-finance.svg",
+            "title": "Finance",
+            "desc": "Finance"
+        },
+        {
+            "id": 22,
+            "image": "/hire-legal.svg",
+            "title": "Legal",
+            "desc": "Legal"
+        },
+        {
+            "id": 23,
+            "image": "/hire-manufacturing.svg",
+            "title": "Manufacturing",
+            "desc": "Manufacturing"
+        },
+        {
+            "id": 24,
+            "image": "/hire-logistics.svg",
+            "title": "Logistics",
+            "desc": "Logistics"
+        }
+    ],
+
+    "apiCard": [{
+            "id": 1,
+            "image": "/professionals.png",
+            "title": "FREELANCER API",
+            "desc": "43 million professionals on demand",
+            "details": "Why hire people when you can simply integrate our talented cloud workforce instead?",
+            "button": "View Documentation"
+        },
+        {
+            "id": 2,
+            "image": "/company.png",
+            "title": "FREELANCER ENTERPRISE",
+            "desc": "Company budget? Get more done for less",
+            "details": "Use our workforce of 43 million to help your business achieve more.",
+            "button": "Contact Us"
+        }
+    ],
+
+    "jobCategories": [{
+            "id": 1,
+            "icon": "fas fa-caret-right",
+            "title": "PHP"
+        },
+        {
+            "id": 2,
+            "icon": "fas fa-caret-right",
+            "title": "Graphic Design"
+        },
+        {
+            "id": 3,
+            "icon": "fas fa-caret-right",
+            "title": "Website Design"
+        },
+        {
+            "id": 4,
+            "icon": "fas fa-caret-right",
+            "title": "HTML"
+        },
+        {
+            "id": 5,
+            "icon": "fas fa-caret-right",
+            "title": "Logo Design"
+        },
+        {
+            "id": 6,
+            "icon": "fas fa-caret-right",
+            "title": "PhotoShop"
+        },
+        {
+            "id": 7,
+            "icon": "fas fa-caret-right",
+            "title": "WordPress"
+        },
+        {
+            "id": 8,
+            "icon": "fas fa-caret-right",
+            "title": "Article Writing"
+        },
+        {
+            "id": 9,
+            "icon": "fas fa-caret-right",
+            "title": "Javascript"
+        },
+        {
+            "id": 10,
+            "icon": "fas fa-caret-right",
+            "title": "Mobile App Development"
+        },
+        {
+            "id": 11,
+            "icon": "fas fa-caret-right",
+            "title": "Software Architecture"
+        },
+        {
+            "id": 12,
+            "icon": "fas fa-caret-right",
+            "title": "Data Entry"
+        },
+        {
+            "id": 13,
+            "icon": "fas fa-caret-right",
+            "title": "Android"
+        },
+        {
+            "id": 14,
+            "icon": "fas fa-caret-right",
+            "title": "Excel"
+        },
+        {
+            "id": 15,
+            "icon": "fas fa-caret-right",
+            "title": "Css"
+        },
+        {
+            "id": 16,
+            "icon": "fas fa-caret-right",
+            "title": "HTML5"
+        },
+        {
+            "id": 17,
+            "icon": "fas fa-caret-right",
+            "title": "Internet Marketing"
+        },
+        {
+            "id": 18,
+            "icon": "fas fa-caret-right",
+            "title": "Copywriting"
+        },
+        {
+            "id": 19,
+            "icon": "fas fa-caret-right",
+            "title": "SEO"
+        },
+        {
+            "id": 20,
+            "icon": "fas fa-caret-right",
+            "title": "iPhone"
+        },
+        {
+            "id": 21,
+            "icon": "fas fa-caret-right",
+            "title": "Research Writing"
+        },
+        {
+            "id": 22,
+            "icon": "fas fa-caret-right",
+            "title": "Translation"
+        },
+        {
+            "id": 23,
+            "icon": "fas fa-caret-right",
+            "title": "Java"
+        },
+        {
+            "id": 24,
+            "icon": "fas fa-caret-right",
+            "title": "MySQL"
+        },
+        {
+            "id": 25,
+            "icon": "fas fa-caret-right",
+            "title": "Ghostwriting"
+        },
+        {
+            "id": 26,
+            "icon": "fas fa-caret-right",
+            "title": "Marketing"
+        },
+        {
+            "id": 27,
+            "icon": "fas fa-caret-right",
+            "title": "Date Processing"
+        },
+        {
+            "id": 28,
+            "icon": "fas fa-caret-right",
+            "title": "Technical Writing"
+        },
+        {
+            "id": 29,
+            "icon": "fas fa-caret-right",
+            "title": "Python"
+        },
+        {
+            "id": 30,
+            "icon": "fas fa-caret-right",
+            "title": "Social Media Marketing"
+        },
+        {
+            "id": 31,
+            "icon": "fas fa-caret-right",
+            "title": "Research"
+        },
+        {
+            "id": 32,
+            "icon": "fas fa-caret-right",
+            "title": "Link Building"
+        },
+        {
+            "id": 33,
+            "icon": "fas fa-caret-right",
+            "title": "C# Programming"
+        },
+        {
+            "id": 34,
+            "icon": "fas fa-caret-right",
+            "title": "3D Modelling"
+        },
+        {
+            "id": 35,
+            "icon": "fas fa-caret-right",
+            "title": "Web Search"
+        },
+        {
+            "id": 36,
+            "icon": "fas fa-caret-right",
+            "title": "Web Scraping"
+        },
+        {
+            "id": 37,
+            "icon": "fas fa-caret-right",
+            "title": "3D Rendering"
+        },
+        {
+            "id": 38,
+            "icon": "fas fa-caret-right",
+            "title": "Linux"
+        },
+        {
+            "id": 39,
+            "icon": "fas fa-caret-right",
+            "title": "Video Services"
+        },
+        {
+            "id": 40,
+            "icon": "fas fa-caret-right",
+            "title": "C++ Programming"
+        },
+        {
+            "id": 41,
+            "icon": "fas fa-caret-right",
+            "title": "eCommerce"
+        },
+        {
+            "id": 42,
+            "icon": "fas fa-caret-right",
+            "title": "Banner Design"
+        },
+        {
+            "id": 43,
+            "icon": "fas fa-caret-right",
+            "title": "Illustration"
+        },
+        {
+            "id": 44,
+            "icon": "fas fa-caret-right",
+            "title": "Proofreading"
+        },
+        {
+            "id": 45,
+            "icon": "fas fa-caret-right",
+            "title": "3D Animation"
+        },
+        {
+            "id": 46,
+            "icon": "fas fa-caret-right",
+            "title": "Content Writing"
+        },
+        {
+            "id": 47,
+            "icon": "fas fa-caret-right",
+            "title": "See All"
+        }
+    ]
+
+}
