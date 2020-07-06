@@ -1,68 +1,64 @@
 {
     "carousel": [{
             "id": 1,
-            "image": "/bg1.jpg",
-            "details": "This Mobile Design Cost ",
-            "label": "$150"
+            "image": "slide1.jpeg",
+            "details": "This mobile app design cost $1500 USD"
         },
         {
             "id": 2,
-            "image": "/bg2.jpg",
-            "details": "This Architectural Design Cost ",
-            "label": "$200"
+            "image": "slide2.jpeg",
+            "details": " This illustration cost $100 USD and took 5 days "
         },
         {
             "id": 3,
-            "image": "/bg3.jpg",
-            "details": "This Nasa Design Cost ",
-            "label": "$250"
+            "image": "slide3.jpeg",
+            "details": "This radiation shield design for NASA cost $500 USD and took 15 days "
         },
         {
             "id": 4,
-            "image": "/bg4.jpg",
-            "details": "This Website Design Cost ",
-            "label": "$300"
+            "image": "slide4.jpeg",
+            "details": "This illustration cost $100 USD and took 5 days  "
         }
     ],
 
     "asUsedBy": [{
             "id": 1,
-            "title": "Microsoft",
+            "class": "col-md-2 col-4",
             "image": "/ms.png"
         },
         {
             "id": 2,
-            "title": "Sap",
+            "class": "col-md-1 col-2",
             "image": "/SAP.png"
         },
         {
             "id": 3,
-            "title": "MetLife",
-            "image": "/metlife-1.png"
+            "class": "col-md-2 col-4",
+            "image": "/metlife-1.svg"
         },
         {
             "id": 4,
-            "title": "Intel",
+            "class": "col-md-1 col-2",
             "image": "/intel.png"
         },
         {
             "id": 5,
-            "title": "Boeing",
+            "class": "col-md-2 col-4",
             "image": "/be.png"
         },
         {
             "id": 6,
-            "title": "Avery",
+            "class": "col-md-2 col-4",
             "image": "/avery.png"
         },
         {
             "id": 7,
-            "title": "Pwc",
+            "class": "col-md-1 col-2",
             "image": "/pwc.png"
         },
         {
             "id": 8,
-            "title": "Ge",
+            "class": "col-md-1 col-2",
             "image": "/ge.png"
         }
     ],
@@ -71,7 +67,6 @@
             "id": 1,
             "image": "/work.jpg",
             "title": "Post a job",
-            "desc": "Pay safely",
             "paragraph": "It's easy. Simply post a job you need completed and receive competitive bids from freelancers within minutes."
 
         },
@@ -79,7 +74,6 @@
             "id": 2,
             "image": "/work2.jpg",
             "title": "Choose freelancers",
-            "desc": "Pay safely",
             "paragraph": "Whatever your needs, there will be a freelancer to get it done: from web design, mobile app development, virtual assistants, product manufacturing, and graphic design (and a whole lot more)."
 
         },
@@ -87,7 +81,6 @@
             "id": 3,
             "image": "/work3.jpg",
             "title": "Pay safely",
-            "desc": "Pay safely",
             "paragraph": "With secure payments and thousands of reviewed professionals to choose from, Freelancer.com is the simplest and safest way to get work done online."
 
         }
@@ -135,37 +128,43 @@
             "id": 1,
             "link": "/work2.jpg",
             "title": "Website Development",
-            "desc": "From $300 USD"
+            "desc": "From $300 USD",
+            "lable":"Post a project like this"
         },
         {
             "id": 2,
             "link": "/work2.jpg",
             "title": "Graphic Design",
-            "desc": "From $100 USD"
+            "desc": "From $100 USD",
+            "lable":"Post a project like this"
         },
         {
             "id": 3,
             "link": "/work2.jpg",
             "title": "Logo Design",
-            "desc": "From $50 USD"
+            "desc": "From $50 USD",
+            "lable":"Post a contest like this"
         },
         {
             "id": 4,
             "link": "/work2.jpg",
             "title": "Marketing",
-            "desc": "From $150 USD"
+            "desc": "From $150 USD",
+            "lable":"Post a project like this"
         },
         {
             "id": 5,
             "link": "/work2.jpg",
             "title": "Writing",
-            "desc": "From $50 USD"
+            "desc": "From $50 USD",
+            "lable":"Post a project like this"
         },
         {
             "id": 6,
             "link": "/work2.jpg",
             "title": "Mobile App",
-            "desc": "From $50 USD / hour"
+            "desc": "From $50 USD / hour",
+            "lable":"Post a project like this"
         }
     ],
 
@@ -337,149 +336,142 @@
         }
     ],
 
-    "jobCategories": [{
-            "id": 1,
-            "class":"col-lg-1 col-md-3 col-4",
-            "link":"tv.svg",
-            "title":"PHP"
+    "jobCategories": [
+        {   "id":1,
+            "name":"PHP"
         },
-        {
-            "id": 2,
-            "class":"col-lg-1 col-md-3 col-4",
-            "link":"tv.svg",
-            "title":"Website Design"
+        {   "id":2,
+            "name":"Graphic Design"
         },
-        {
-            "id": 3,
-            "class":"col-lg-1 col-md-3 col-4",
-            "link":"tv.svg",
-            "title":"Graphic Design"
+    
+        {   "id":3,
+            "name":"Website Design"
         },
-        {
-            "id": 4,
-            "class":"col-lg-1 col-md-3 col-4",
-            "link":"tv.svg",
-            "title":"Mobile Apps"
+        {   "id":4,
+            "name":"HTML"
         },
-        {
-            "id": 5,
-            "class":"col-lg-1 col-md-3 col-4",
-            "link":"tv.svg",
-            "title":"Iphone Apps"
+        {   "id":5,
+            "name":"Logo Design"
         },
-        {
-            "id": 6,
-            "class":"col-lg-1 col-md-3 col-4",
-            "link":"tv.svg",
-            "title":"Phptoshop"
-        },
-        {
-            "id": 7,
-            "class":"col-lg-1 col-md-3 col-4",
-            "link":"tv.svg",
-            "title":"Logo Design"
-        },
-        {
-            "id": 8,
-            "class":"col-lg-1 col-md-3 col-4",
-            "link":"tv.svg",
-            "title":"Article Design"
-        },
-        {
-            "id": 9,
-            "class":"d-none d-md-inline-block col-lg-1 col-md-3",
-            "link":"tv.svg",
-            "title":"Data Entry"
-        },
-        {
-            "id": 10,
-            "class":"d-none d-md-inline-block col-lg-1 col-md-3",
-            "link":"tv.svg",
-            "title":"Internet Marketing"
-        },
-        {
-            "id": 11,
-            "class":"d-none d-md-inline-block col-lg-1 col-md-3",
-            "link":"tv.svg",
-            "title":"SEO"
-        },
-        {
-            "id": 12,
-            "class":"d-none d-lg-inline-block col-lg-1",
-            "link":"tv.svg",
-            "title":"3D Modelling"
-        },
-        {
-            "id": 13,
-            "class":"d-none d-lg-inline-block col-lg-1",
-            "link":"tv.svg",
-            "title":"Copywriting"
-        },
-        {
-            "id": 14,
-            "class":"d-none d-lg-inline-block col-lg-1",
-            "link":"tv.svg",
-            "title":"Ghostwriting"
-        },
-        {
-            "id": 15,
-            "class":"d-none d-lg-inline-block col-lg-1",
-            "link":"tv.svg",
-            "title":"Linux"
-        },
-        {
-            "id": 16,
-            "class":"d-none d-lg-inline-block col-lg-1",
-            "link":"tv.svg",
-            "title":"Amazon Web Services"
+        {   "id":6,
+            "name":"Photoshop"
+        },   
+        {   "id":7,
+            "name":"WordPress"
         },    
-        {
-            "id": 17,
-            "class":"d-none d-lg-inline-block col-lg-1",
-            "link":"tv.svg",
-            "title":"Banner Design"
+        {   "id":8,
+            "name":"Article Writing"
         },    
-        {
-            "id": 18,
-            "class":"d-none d-lg-inline-block col-lg-1",
-            "link":"tv.svg",
-            "title":"Software Development"
-        },
-        {
-            "id": 19,
-            "class":"d-none d-lg-inline-block col-lg-1",
-            "link":"tv.svg",
-            "title":"Accounting"
+        {   "id":9,
+            "name":"Javascript"
         },    
-        {
-            "id": 20,
-            "class":"d-none d-lg-inline-block col-lg-1",
-            "link":"tv.svg",
-            "title":"Finance"
+        {   "id":10,
+            "name":"Mobile App Development"
         },    
-        {
-            "id": 21,
-            "class":"d-none d-lg-inline-block col-lg-1",
-            "link":"tv.svg",
-            "title":"Legal"
-        },
-        {
-            "id": 22,
-            "class":"d-none d-lg-inline-block col-lg-1",
-            "link":"tv.svg",
-            "title":"Manufacturing"
+        {   "id":11,
+            "name":"Software Architecture"
         },    
-        {
-            "id": 23,
-            "class":"d-none d-lg-inline-block col-lg-1",
-            "link":"tv.svg",
-            "title":"Logistics"
-        },
-        {
-            "id": 24,
-            "class":"d-lg-none col-md-3 col-4",
-            "link":"ellipsis.svg",
-            "title":"More"
+        {   "id":12,
+            "name":"Data Entry"
+        },    
+        {   "id":13,
+            "name":"Android"
+        },    
+        {   "id":14,
+            "name":"Excel"
+        },    
+        {   "id":15,
+            "name":"CSS"
+        },    
+        {   "id":16,
+            "name":"HTML5"
+        },    
+        {   "id":17,
+            "name":"Internet Marketing"
+        },    
+        {   "id":18,
+            "name":"Copywriting"
+        },    
+        {   "id":19,
+            "name":"SEO"
+        },    
+        {   "id":20,
+            "name":"iPhone"
+        },    
+        {   "id":21,
+            "name":"Research Writing"
+        },    
+        {   "id":22,
+            "name":"Translation"
+        },    
+        {   "id":23,
+            "name":"Java"
+        },    
+        {   "id":24,
+            "name":"MySQL"
+        },    
+        {   "id":25,
+            "name":"Ghostwriting"
+        },    
+        {   "id":26,
+            "name":"Technical Writing"
+        },    
+        {   "id":27,
+            "name":"Python"
+        },    
+        {   "id":28,
+            "name":"Social Media Marketing"
+        },    
+        {   "id":29,
+            "name":"Research"
+        },    
+        {   "id":30,
+            "name":"Link Building"
+        },    
+        {   "id":31,
+            "name":"C# Programming"
+        },    
+        {   "id":32,
+            "name":"3D Modelling"
+        },    
+        {   "id":33,
+            "name":"Web Search"
+        },    
+        {   "id":34,
+            "name":"Web Scraping"
+        },    
+        {   "id":35,
+            "name":"3D Rendering"
+        },    
+        {   "id":36,
+            "name":"Linux"
+        },    
+        {   "id":37,
+            "name":"Video Services"
+        },    
+        {   "id":38,
+            "name":"C++ Programming"
+        },    
+        {   "id":39,
+            "name":"eCommerce"
+        },    
+        {   "id":40,
+            "name":"Banner Design"
+        },    
+        {   "id":41,
+            "name":"Illustration"
+        },    
+        {   "id":42,
+            "name":"Proofreading"
+        },    
+        {   "id":43,
+            "name":"3D Animation"
+        },    
+        {   "id":44,
+            "name":"Content Writing"
+        },    
+        {   "id":45,
+            "name":"See All"
         }
     ]
 
