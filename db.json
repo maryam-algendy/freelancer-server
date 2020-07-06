@@ -18,7 +18,13 @@
             "id": 4,
             "image": "slide4.jpeg",
             "details": "This illustration cost $100 USD and took 5 days  "
-        }
+        },
+	{
+	    "captionTitle": "Hire the best freelancers for any job, online.",
+	    "captionDescription": "Millions of people use freelancer.com to turn their ideas into reality.",
+            "hierBtn": "Hier a Freelancer",
+            "earnBtn": "Earn Money Freelancing"
+	}
     ],
 
     "asUsedBy": [{
